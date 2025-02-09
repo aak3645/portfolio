@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
     return;
   }
 
-  const texts = ["BCA Student", "Web Developer", "Tech Enthusiast"];
+  const texts = ["BCA Student", "Web Developer", "Freelancer"];
   let textIndex = 0;
   let charIndex = 0;
   let isDeleting = false;
