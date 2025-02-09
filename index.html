@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Anup Chauhan - Advanced Animated Portfolio</title>
+  <!-- Google Fonts for improved typography -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Particle Background Canvas -->
+  <canvas id="particle-canvas"></canvas>
+
+  <!-- Header Section -->
+  <header id="main-header">
+    <!-- Navigation Bar -->
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Header Content -->
+    <div class="header-content">
+      <h1 class="logo">Anup Chauhan</h1>
+      <p class="tagline" id="typed-text"></p>
+      <a href="#projects" class="btn">View Projects</a>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <section id="about" class="section">
+      <h2>About Me</h2>
+      <p>
+        I am a passionate BCA student who loves coding and designing innovative web experiences.
+        With expertise in web development, animation, and interactive graphics, I continually strive
+        to push the boundaries of creativity and technology.
+      </p>
+    </section>
+
+    <section id="skills" class="section">
+      <h2>Skills</h2>
+      <div class="skills-container">
+        <div class="skill">HTML &amp; CSS</div>
+        <div class="skill">JavaScript</div>
+        <div class="skill">Responsive Design</div>
+        <div class="skill">Animation &amp; Graphics</div>
+        <div class="skill">Database Management</div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+        <div class="project-item">
+          <h3>To-Do List App</h3>
+          <p>An interactive task manager with dynamic animations and real-time updates.</p>
+        </div>
+        <div class="project-item">
+          <h3>Student Management System</h3>
+          <p>A robust system to manage student records using modern web technologies.</p>
+        </div>
+        <div class="project-item">
+          <h3>Interactive Portfolio</h3>
+          <p>An immersive portfolio showcasing advanced animations and interactive designs.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Updated Contact Section with a Form -->
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+      <form id="contact-form" method="POST" action="/contact">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" placeholder="Your Message" rows="4" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+      <p id="contact-response"></p>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-container">
+      <div class="footer-column about">
+        <h3>About Me</h3>
+        <p>
+          I'm Anup Chauhan—a passionate BCA student and web developer dedicated to designing beautiful, functional websites.
+        </p>
+      </div>
+      <div class="footer-column links">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-column social">
+        <h3>Follow Me</h3>
+        <ul>
+          <li><a href="https://www.linkedin.com/in/anupchauhan" target="_blank">LinkedIn</a></li>
+          <li><a href="https://github.com/anupchauhan" target="_blank">GitHub</a></li>
+          <li><a href="mailto:anupchauhan@example.com">Email</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 Anup Chauhan. All rights reserved.</p>
+    </div>
+  </footer>
+  
+
+  <!-- External JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
